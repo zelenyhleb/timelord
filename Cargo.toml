@@ -1,0 +1,11 @@
+[package]
+name = "timelord"
+description = "Tool to handle working hours"
+author = "Nikifor Fedorov <nikifor.fedorov@arsysop.ru>"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cli-clipboard = "0.3.0"
+csv = "1.1"
+serde = { version = "1", features = ["derive"] }
